@@ -77,3 +77,10 @@ print(np.mean(arr))
 print(np.median(arr))
 print(np.std(arr))
 
+# Şekil değiştirme
+reshaped = arr.reshape((2, 2))
+
+# İki array birleştirme
+a = np.array([1, 2])
+b = np.array([3, 4])
+combined = np.concatenate([a, b])
